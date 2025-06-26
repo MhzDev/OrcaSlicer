@@ -7,7 +7,7 @@
     "inherits": "Prusa Generic PLA @MK4S",
     "filament_id": "Generic PLA @MK4S 0.8",
     
-    "nozzle_temperature": "225",
+    "nozzle_temperature": "220",
     "filament_max_volumetric_speed": "19",
     "slow_down_layer_time": "15",
     "fan_cooling_layer_time": "25",
