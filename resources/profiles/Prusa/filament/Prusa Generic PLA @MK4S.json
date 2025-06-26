@@ -6,10 +6,11 @@
     "instantiation": "true",
     "inherits": "fdm_filament_pla",
     "filament_id": "Generic PLA @MK4S",
-    "fan_cooling_layer_time": "17", 
-    "fan_min_speed": "70",
+    
     "slow_down_layer_time": "6",
     "slow_down_min_speed": "20",
+    "fan_cooling_layer_time": "17", 
+    "fan_min_speed": "70",
     "compatible_printers": [
         "Prusa MK4S 0.25 nozzle",
         "Prusa MK4S 0.3 nozzle",
