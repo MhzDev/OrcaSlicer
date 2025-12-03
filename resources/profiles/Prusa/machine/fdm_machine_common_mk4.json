@@ -43,6 +43,24 @@
     "extruder_clearance_height_to_lid": "220",
     "extruder_clearance_height_to_rod": "14",
     "extruder_clearance_radius": "45",
+
+    "machine_max_speed_x": [
+        "300",
+        "160"
+    ],
+    "machine_max_speed_y": [
+        "300",
+        "160"
+    ],
+    "machine_max_speed_z": [
+        "40",
+        "40"
+    ],
+    "machine_max_speed_e": [
+        "100",
+        "100"
+    ],
+    
     "machine_max_acceleration_x": [
         "4000",
         "2500"
@@ -72,10 +90,7 @@
         "2500"
     ],
 
-    "machine_max_jerk_e": [
-        "10",
-        "10"
-    ],
+    
     "machine_max_jerk_x": [
         "8",
         "8"
@@ -88,21 +103,9 @@
         "2",
         "2"
     ],
-    "machine_max_speed_e": [
-        "100",
-        "100"
-    ],
-    "machine_max_speed_x": [
-        "300",
-        "160"
-    ],
-    "machine_max_speed_y": [
-        "300",
-        "160"
-    ],
-    "machine_max_speed_z": [
-        "40",
-        "40"
+    "machine_max_jerk_e": [
+        "10",
+        "10"
     ],
    
     "nozzle_diameter": "0.4",
