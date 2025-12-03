@@ -24,6 +24,11 @@
         "480x240/QOI",
         "640x480/PNG"
     ],
+    "use_relative_e_distances": "1",
+    "use_firmware_retraction": "0",
+    "extruder_clearance_height_to_lid": "220",
+    "extruder_clearance_radius": "45",
+    "extruder_clearance_height_to_rod": "13",
 
     //TODO
     "machine_start_gcode": [
@@ -42,10 +47,7 @@
         ""
     ],
     //TODO
-    
-    "extruder_clearance_height_to_lid": "220",
-    "extruder_clearance_radius": "45",
-    "extruder_clearance_height_to_rod": "13",
+
     "machine_max_speed_x": [
         "300",
         "160"
@@ -109,26 +111,18 @@
     "nozzle_diameter": "0.4",
     "min_layer_height": "0.07",
     "max_layer_height": "0.30",
-
-
-    //TODO
-    "retract_before_wipe": "80",
-    "retract_length_toolchange": "0",
-    "retract_lift_above": "0",
-    "retract_lift_below": "219",
-    "retract_when_changing_layer": "0",
-    "retraction_length": "0.7",
-    "retraction_minimum_travel": "1.5",
-    "retraction_speed": "35",
-    "deretraction_speed": "25",
-
-    "travel_slope": "1",
-    "use_firmware_retraction": "0",
-    "use_relative_e_distances": "1",
-    "wipe": "0",
     "z_hop": "0.2",
     "z_hop_types": "Slope Lift",
-    //TODO
-
+    "travel_slope": "1",
+    "retract_lift_above": "0",
+    "retract_lift_below": "219",
+    "retraction_length": "0.7",
+    "retraction_speed": "35",
+    "deretraction_speed": "25",
+    "retraction_minimum_travel": "1.5",
+    "retract_when_changing_layer": "1",
+    "wipe": "0",
+    "retract_before_wipe": "80",
+    "retract_length_toolchange": "0",
     "printer_notes": "Don't remove the following keywords! These keywords are used in the \"compatible printer\" condition of the print and filament profiles to link the particular print and filament profiles to this printer profile.\nPRINTER_MODEL_MK4IS\nPG"
 }
