@@ -7,5 +7,13 @@
     "printer_model": "Prusa MK4",
     "setting_id": "GM004",
     "default_print_profile": "0.08mm Standard @MK4",
-    "nozzle_diameter": "0.25"
+    "nozzle_diameter": "0.25",
+    "machine_max_acceleration_travel": [
+        "2500",
+        "2500"
+    ],   
+    "min_layer_height": "0.05",
+    "max_layer_height": "0.15",
+    "retraction_length": "0.8",
+    "z_hop": "0.15"
 }
