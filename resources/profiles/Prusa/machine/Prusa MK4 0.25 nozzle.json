@@ -6,5 +6,6 @@
     "instantiation": "true",
     "printer_model": "Prusa MK4",
     "setting_id": "GM004",
-    "default_print_profile": "0.08mm Standard @MK4"
+    "default_print_profile": "0.08mm Standard @MK4",
+    "nozzle_diameter": "0.25"
 }
